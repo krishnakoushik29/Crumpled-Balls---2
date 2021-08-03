@@ -8,13 +8,14 @@ class Paper {
         }
         this.image=loadImage("paper.png")
         this.body = Bodies.circle(x,y,radius, options);
-        this.radius = radius
+        this.radius = radius,
+        this.radius = radius,
 
         World.add(world, this.body);
     }
     display(){
         
-        imageMode(RADIUS);
+        imageMode(CENTER),
 
         fill("red");
 
