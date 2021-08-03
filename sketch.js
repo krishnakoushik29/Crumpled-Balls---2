@@ -7,7 +7,7 @@ const Body = Matter.Body;
 
 var engine, world, paperball, ground, dustbin1, dustbin2, dustbin3; 
 function setup() {
-    createCanvas(1400, 700);
+    createCanvas(1350, 700);
     rectMode(CENTER);
 
     engine = Engine.create();
@@ -46,6 +46,6 @@ function draw() {
 
 function keyPressed(){
     if (keyCode === UP_ARROW ) {
-      Matter.Body.applyForce(paperball.body, paperball.body.position, {x: 60,y: -60})
+      Matter.Body.applyForce(paperball.body, paperball.body.position, {x: 90,y: -90})
     }
   }
