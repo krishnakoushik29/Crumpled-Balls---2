@@ -9,7 +9,7 @@ class Paper {
         this.image=loadImage("paper.png")
         this.body = Bodies.circle(x,y,radius, options);
         this.radius = radius,
-        this.radius = radius,
+       
 
         World.add(world, this.body);
     }
@@ -19,7 +19,7 @@ class Paper {
 
         fill("red");
 
-        image( this.image,this.body.position.x, this.body.position.y, this.radius);
+        image( this.image,this.body.position.x, this.body.position.y, this.radius ,this.radius);
 
     }       
 };
