@@ -3,7 +3,7 @@ const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
-
+const Constraint = Matter.Constraint;
 
 var engine, world, paperball, ground, dustbin1, dustbin2, dustbin3; 
 function setup() {
